@@ -1,0 +1,11 @@
+.table td {
+    vertical-align: middle;
+}
+.bi-trash-fill {
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+.bi-trash-fill:hover {
+    color: #dc3545; /* Bootstrap's danger red */
+    transform: scale(1.1);
+  }
